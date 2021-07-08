@@ -1,0 +1,9 @@
+X,Y=input().split()
+X=int(X)
+Y=float(Y)
+if(X%5==0):
+  if(X>0 and X<=2000):
+    if(Y>=0 and Y<=2000):
+      if((X+0.50)<=Y):
+        Y=Y-(X+0.50)
+print(format(Y,".2f"))
