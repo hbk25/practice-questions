@@ -1,0 +1,10 @@
+T=int(input())
+li=[]
+x=[]
+for i in range (T):
+  li.append(input().split())
+for i in range (T):
+  x.append(int(li[i][0])+int(li[i][1]))
+
+for i in x:
+  print(i)
