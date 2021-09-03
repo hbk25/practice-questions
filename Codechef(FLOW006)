@@ -1,0 +1,13 @@
+t=int(input())
+li=[]
+for i in range(t):
+  j=[]
+  a=int(input())
+  b=str(a)
+  j += b
+  s=0
+  for i in j:
+    s=s+int(i)
+  li.append(s)
+for i in li:
+  print(i)
